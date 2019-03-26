@@ -1,5 +1,6 @@
 // Copyright, Tomás António Sanches Pinto 2019
 // g++ main.cpp -lboost_filesystem -lboost_system -pthread -O3 -std=c++14
+// sudo apt-get install libboost-all-dev
 
 #include "crow.h"
 
@@ -29,4 +30,3 @@ int main()
 	
 	app.port(8080).multithreaded().run();
 }
-
