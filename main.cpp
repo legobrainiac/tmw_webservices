@@ -8,7 +8,7 @@
 #include <iostream>
 #include <string>
 
-#define KEY "tmw159"
+#define KEY "" // Replace this with actual API key
 #define VERSION_MAJOR 0
 #define VERSION_MINOR 1
 
