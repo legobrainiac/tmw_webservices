@@ -27,7 +27,7 @@ int main()
 			return result;
 		}
 		
-		std::string cmdStr = "sudo sh servercommands_all.sh ";
+		std::string cmdStr = "sudo ./servercommands_all.sh ";
 		cmdStr += cmd;
 		
 		int i = system(cmdStr.c_str());
@@ -49,7 +49,7 @@ int main()
 		
 		// After building the string, it should look something like this: 
 		//  sudo sh servercommands.sh <id> <command>
-		std::string cmdStr = "sudo sh servercommands.sh ";
+		std::string cmdStr = "sudo ./servercommands.sh ";
 		cmdStr += std::to_string(id);
 		cmdStr += " ";
 		cmdStr += cmd;
